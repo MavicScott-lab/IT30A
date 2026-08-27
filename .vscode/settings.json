@@ -1,0 +1,42 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "sshOptions": {
+                "port": 22
+            },
+            "driver": "MySQL",
+            "name": "library_db",
+            "database": "library_db",
+            "username": "root",
+            "connectionTimeout": 30,
+            "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "sshOptions": {
+                "port": 22
+            },
+            "driver": "MySQL",
+            "name": " MySQL Local",
+            "database": "library_db",
+            "username": "root",
+            "connectionTimeout": 30,
+            "password": ""
+        }
+    ]
+}
