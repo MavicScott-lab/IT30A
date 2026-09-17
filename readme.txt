@@ -18,7 +18,7 @@ mysqldump -u root -p --databases library_db > "C:\IT30A\IT30A\backups\%date:~-4%
 \! cls 
 mysqldump -u root -p --databases library_db > D:\IT30A\IT30A\backups\date_db_name.sql
 
-mysqldump -u root -p --databases library_db > "D:\IT30A\IT30A\backups\%date:~-4%%date:~4,2%%date:~7,2%_%time:~0,2%%time:~3,2%%time:~6,2%_library_db.sql"
+mysqldump -u root -p --databases library_db > "D:\IT30A\IT30A\backups\%date:~-4%%date:~4,2%%date:~7,2%_%time:~0,2%%time:~3,2%%time:~6,2%_date_db_name.sql"
 %date:~-4%_
 %date:~4,2%_
 %date:~7,2%_
